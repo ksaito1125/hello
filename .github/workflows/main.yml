@@ -15,3 +15,5 @@ jobs:
       - run: |
           echo "Hello, World!"
           echo "Hello, Github actions!"
+          cat /etc/os-release
+          docker -v
