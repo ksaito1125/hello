@@ -12,6 +12,4 @@ jobs:
     name: Greeting
     runs-on: ubuntu-latest
     steps:
-      - run: |
-        echo "Hello, World!"
-        echo "Hello, Github Action"
+      - run: echo "Hello, World!"
